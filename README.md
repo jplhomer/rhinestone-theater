@@ -1,2 +1,1 @@
-# rhinestone-theater
-Created with CodeSandbox
+# Rhinestone Theater
