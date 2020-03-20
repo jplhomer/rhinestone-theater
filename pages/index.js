@@ -46,6 +46,7 @@ export default () => (
       }
     `}</style>
     <Head>
+      <title>Rhinestone Theater</title>
       <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap"
         rel="stylesheet"
