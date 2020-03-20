@@ -23,7 +23,7 @@ export default () => (
     >
       Rhinestone Theater
       <br />
-      Saturday, March 21 - 7:30pm CST
+      Saturday, March 21 - 7:30pm Central
     </p>
     <iframe
       src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjplhomer%2Fvideos%2F10218816588064094%2F&width=400"
