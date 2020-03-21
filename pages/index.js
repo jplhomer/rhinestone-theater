@@ -2,7 +2,7 @@ import Head from "next/head";
 import Countdown from "../components/Countdown";
 
 export default function Index() {
-  const date = new Date('03/21/2020 7:30 PM GMT -0500');
+  const date = new Date('03/21/2020 7:30 PM -0500 (CDT)');
 
   return (
     <div
