@@ -3,6 +3,7 @@ import Countdown from "../components/Countdown";
 
 export default function Index() {
   const date = new Date('03/21/2020 7:30 PM -0500 (CDT)');
+  const showVideo = typeof window !== 'undefined' ? !/hideVideo/.test(window.location.href) : true;
 
   return (
     <div
@@ -29,7 +30,7 @@ export default function Index() {
         {date.toLocaleString()}
       </p>
       <Countdown untilDateString={date.toString()} />
-      <iframe
+      {showVideo && <iframe
         src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjplhomer%2Fvideos%2F10218816588064094%2F&width=400"
         width="500"
         height="281"
@@ -41,7 +42,7 @@ export default function Index() {
           margin: "auto",
           maxWidth: "100%"
         }}
-      />
+      />}
       <style jsx global>{`
         body {
           margin: 0;
