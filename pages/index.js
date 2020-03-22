@@ -29,7 +29,6 @@ export default function Index() {
         <br />
         {date.toLocaleString()}
       </p>
-      <Countdown untilDateString={date.toString()} />
       {showVideo && <iframe
         src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fjplhomer%2Fvideos%2F10218816588064094%2F&width=400"
         width="500"
